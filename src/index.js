@@ -1,22 +1,27 @@
-
+import React from 'react';
 import { createRoot } from "react-dom/client";
-import "./../src/index.css";
+import Navbar from "./components/navbar/Navbar";
+
+
+
+
+function Home(){
+    return(
+      <div>
+          <Navbar/>
+      </div>
+    );
+   
+}
+
+
 
 
 const root = createRoot(document.getElementById("root"));
-   function App() {
-    return (
-     <div>
-        <h1 className="text-4xl font-bold underline">Helloo nidhi</h1>
-        <h1>dhsfdksjhkdesd</h1>
-    </div>   
-    );
-   }
-
- 
 root.render(
    <>
-   <App/>
+    
+   <Home/>
    </>
 );
 

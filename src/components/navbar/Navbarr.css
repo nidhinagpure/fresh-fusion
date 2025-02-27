@@ -1,0 +1,41 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar-Container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #1F4529;
+    color: #E8ECD7;
+    font-size: 25px;    
+}
+.logo-Container{
+    border-radius: 50px;
+    margin: 2px 0 2px 60px;
+}
+.Navbar-Logo{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+.navbar-Heading{
+    padding-left: 58%;
+    cursor: pointer;   
+}
+.navbar-Text{
+    padding-right: 50px;   
+}
+.remove-Name{
+    text-decoration: none;
+    color: white;
+}
+.navbar-Text:hover{
+    text-decoration: underline;   
+}
+.main-Image{
+    width: 100%;
+}
