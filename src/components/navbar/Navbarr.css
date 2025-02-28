@@ -79,7 +79,49 @@ body{
 }
 .section-Texts{
     display: flex;
+    text-align: center;
 }
 .section-Text{
     padding: 0 94px 0 0;
+}
+.choose-Icons{
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+}
+.choose-Section{
+    height: 250px;
+    width: 1400px;
+   display: block;
+   margin: 30px auto;
+    background-color: #DCE4C9;
+    border: 2px solid black;
+   display: flex;
+   border: none;
+   justify-content: space-evenly;
+}
+.choose{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 24px;
+}
+.choose-Text{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.choose-Btn{
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #3f5944f3;
+    color: white;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+
 }
