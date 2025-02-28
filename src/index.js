@@ -1,18 +1,10 @@
 import React from 'react';
 import { createRoot } from "react-dom/client";
-import Navbar from "./components/navbar/Navbar";
+import Homees from './../src/view/homee/Homee';
 
 
 
 
-function Home(){
-    return(
-      <div>
-          <Navbar/>
-      </div>
-    );
-   
-}
 
 
 
@@ -20,8 +12,7 @@ function Home(){
 const root = createRoot(document.getElementById("root"));
 root.render(
    <>
-    
-   <Home/>
+      <Homees/>
    </>
 );
 

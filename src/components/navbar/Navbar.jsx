@@ -1,5 +1,6 @@
 
 import './../navbar/Navbarr.css';
+import './../../../src/secondary.css';
 import Logo from './../../assets/project-Logo.png';
 import Image from './../navbar/main-Image.jpeg';
 import Cow from './../navbar/cow.9dfa9d469820c38aab61.png';
@@ -67,12 +68,10 @@ export default function Navbar() {
               <span className='choose'>Why  Choose Us ? </span>
               <span className='choose-Text'>By building a culture of sustainability and wholesome living, we strive for a <br></br>
                 healthier you and a healthier planet.</span><br></br>
-              <button type='button' className='choose-Btn'>Know more</button>
+              <a href=''className='decoration'><button type='button' className='choose-Btn'>Know more</button></a>
             </div>
             <img src={Choose} className='choose-Icons'></img>
-           </div>
-
-
+           </div>        
     </div>
   )
 }
