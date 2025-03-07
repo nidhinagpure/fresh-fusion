@@ -1,10 +1,32 @@
 
 
 .cards-Container{
-    height: 500px;
-    background-color: rgb(189, 28, 28);
-    border: beige 2px solid;
+    width: 290px;
+    height: 380px;
+    background-color: #1F4529;
+    color: #E8ECD7;
+    border-radius: 5px;
 }
-.nidhi{
+.Card-name{
     text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+.card-Image{
+    display: block;
+    width:180px;
+    margin: 2px auto;
+ }
+ .Card-Title{
+    text-align: center;
+    padding: 0 8px 20px 14px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.Cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }

@@ -71,7 +71,9 @@ export default function Navbar() {
               <a href=''className='decoration'><button type='button' className='choose-Btn'>Know more</button></a>
             </div>
             <img src={Choose} className='choose-Icons'></img>
-           </div>        
+           </div>    
+           
+           
     </div>
   )
 }
